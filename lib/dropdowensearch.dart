@@ -24,8 +24,13 @@ class _DropDownSearchState extends State<DropDownSearch> {
       body: Column(
         children: [
           DropDown(
+<<<<<<< HEAD
             items: ["Male", "Female", "Other","fady"],
             hint: Text("fady"),
+=======
+            items: ["Male", "Female", "Other"],
+            hint: Text("Male"),
+>>>>>>> main
             icon: Icon(
               Icons.expand_more,
               color: Colors.blue,
