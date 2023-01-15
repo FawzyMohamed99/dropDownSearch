@@ -20,6 +20,7 @@ class _DropDownSearchState extends State<DropDownSearch> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Drop Down Search'),
+
       ),
       body: Column(
         children: [
@@ -29,7 +30,7 @@ class _DropDownSearchState extends State<DropDownSearch> {
 
             icon: Icon(
               Icons.expand_more,
-              color: Colors.blue,
+              color: Colors.red,
             ),
             onChanged: (val){
               print(val);
